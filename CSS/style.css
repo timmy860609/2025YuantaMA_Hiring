@@ -142,7 +142,14 @@ img{
     background-color: #B8BFCA;
 	align-items: center;
 }
-
+@media (max-width: 767px) {
+	.number-block{
+		flex-wrap: wrap;
+	}
+	.point-number{
+		flex-basis: 50%;
+	}
+}
 /* -------------Training------------- */
 
 .training{
