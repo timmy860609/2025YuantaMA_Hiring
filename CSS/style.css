@@ -709,8 +709,24 @@ img{
 	flex-direction: column;
 	gap: 40px;
 }
-
-/* slogan-2 */
+@media (max-width: 767px) {
+    .event{
+		flex-direction: column;
+		padding: 32px 40px;
+		gap: 24px;
+	}
+	.event-name{
+		width: 100%;
+	}
+	.event-line{
+		width: 100%;
+		height: 1px;
+		rotate: 180deg;
+	}
+	.time-item{
+	}
+}
+/* --------------slogan-------------2 */
 .slogan-2{
 	background-color: #EB6100;
 	text-align: center;
@@ -771,6 +787,8 @@ img{
 	background-image: url(../IMG/angle-down_outline.svg); /* 收起圖標 */
 	background-size: contain;
 	transition: transform 0.3s ease;
+	background-repeat: no-repeat;
+	object-fit: cover;
 }
 
 .accordion-input:checked + .accordion-label::after {
@@ -834,7 +852,19 @@ img{
 .fb img{
 	width:172px
 }
-
+@media (max-width: 767px) {
+	.yuanta-life{
+		padding: 40px;
+	}
+	.company{
+		flex-direction: column;
+		gap: 32px;
+	}
+	.company img{
+		width: 50%;
+		margin: 0 auto;
+	}
+}
 /* Footer */
 
 .footer{
