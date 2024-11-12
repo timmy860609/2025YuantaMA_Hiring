@@ -230,7 +230,25 @@ body{
 	background-color: #EB6100;
 }
 
-/* GoToTop */
+@media (max-width: 767px) {
+    .float-btn{
+        flex-direction: row;
+        gap: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+    }
+    .float-btn img{
+        width: 28px;
+    }
+    .edit,.submit{
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        padding: 16px 24px;
+    }
+}
+/* --------------------GoToTop------------------- */
 .back-to-top {
     position: fixed; /* 固定位置 */
     bottom: 250px;    /* 距離底部 20px */
@@ -257,4 +275,11 @@ body{
 
 .back-to-top:hover {
     background-color: black; /* 滑鼠懸停時改變背景顏色 */
+}
+
+@media (max-width: 767px) {
+    .back-to-top {
+        bottom: 80px; 
+        right: 16px; 
+    }
 }

@@ -75,6 +75,15 @@ link, a{
     h3{
         font-size: 24px;
     }
+    .body1{
+        font-size: 20px;
+    }
+    .body2{
+        font-size: 18px;
+    }
+    .body3{
+        font-size: 16px;
+    }
 }
 
 .intro,.train,.carrer h2{

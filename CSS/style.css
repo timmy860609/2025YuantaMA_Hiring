@@ -125,7 +125,7 @@ img{
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	gap: 40px;
+	justify-content: space-around;
 }
 .number{
 	display: flex;
@@ -143,7 +143,7 @@ img{
 	align-items: center;
 }
 
-/* Training */
+/* -------------Training------------- */
 
 .training{
 	background-color: #F6F7FA;;
@@ -245,7 +245,7 @@ img{
 
 
 
-/* carrer */
+/* -------------carrer------------- */
 .carrer-pic{
 	width: 72px;
 }
@@ -322,6 +322,40 @@ img{
 	background-color: #EB6100;
 	height: auto;
 }
+@media (max-width: 767px) {
+	.chart{
+		gap: 12px;
+	}
+	/* blue */
+	.carrer-item-blue{
+		padding: 16px 20px 40px 20px;
+	}
+	.chart-line-blue{
+		padding: 12px;
+	}
+
+	/* green */
+	.carrer-item-green{
+		padding: 16px 20px 40px 20px;
+	}
+	.chart-line-green{
+		padding: 12px;
+	}
+	/* purple */
+	.carrer-item-purple{
+		padding: 16px 20px 40px 20px;
+	}
+	.chart-line-purple{
+		padding: 12px;
+	}
+	/* orange */
+	.carrer-item-orange{
+		padding: 16px 20px 40px 20px;
+	}
+	.chart-line-orange{
+		padding: 12px;
+	}
+}
 
 /* slogan-1 */
 .slogan-wrapper{
@@ -338,7 +372,7 @@ img{
 .share{
 	background-color: white;
 }
-/* tabs */
+/* ------------	tabs --------------*/
 .tabs {
 	display: flex;
 	flex-wrap: wrap;
@@ -395,12 +429,12 @@ img{
 	display: initial;
   }
 
-/* tab hover */
+/* -------------tab hover----------- */
    .tabs__label:hover::after {
     width: 100%;
   }
 
-/* chip */
+/* --------------chip------------ */
 .skill{
 	display: flex;
 	flex-direction: column;
@@ -423,7 +457,7 @@ img{
 	text-align: center;
 }
 
-/* about-MA */
+/*------------ about-MA-------------- */
 .ma-card{
 	display: flex;
 	justify-content: center;
@@ -510,8 +544,35 @@ img{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+@media (max-width: 767px) {
+	.tabs__label{
+		font-size: 18px;
+	}
+	.chip-line{
+		gap: 16px;
+	}
+	.chip{
+		font-size: 14px;
+	}
+	.ma-grid{
+		grid-gap:16px;
+		grid-template-columns:1fr;
+	}
+	.ma-life{
+		flex-direction: column;
+	}
+	.tabs{
+		margin-bottom: 48px;
+	}
+	.ma-life{
+		margin-top: 48px;
+	}
+	.tabs__content{
+		margin-top: 32px;
+	}
+}
 
-/* apply */
+/*--------------- apply ---------------*/
 
 .apply{
 	background-color: #0053AC;
@@ -579,8 +640,18 @@ img{
 	text-align: center;
 	font-size: 24px;
 }
+@media (max-width: 767px) {
+    .date-block{
+		flex-direction: column;
+	}
+	.goright{
+		width: 16px;
+		rotate: 90deg;
+		margin: 0 auto;
+	}
+}
 
-/* Activity */
+/*----------- Activity----------- */
 .event{
 	display: flex;
 	flex-direction: row;
