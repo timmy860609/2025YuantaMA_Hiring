@@ -199,6 +199,19 @@ body{
     background-color: #0464CB; /* 懸停時背景顏色 */
 }
 
+@media (max-width: 767px) {
+	.sidebar{
+        overflow-y: auto;
+    }
+    .sidebar ul {
+        padding: 24px 24px 80px 24px;
+    }
+    .close-btn{
+        top: 32px;
+        right: 24px;
+        position: fixed;
+    }
+  }
 /* 浮動按鈕 */
 .float-btn{
 	display: flex;
