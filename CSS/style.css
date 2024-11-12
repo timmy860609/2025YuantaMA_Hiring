@@ -143,6 +143,10 @@ img{
 	align-items: center;
 }
 @media (max-width: 767px) {
+	.card-block{
+		flex-direction: column;
+		text-align: center;
+	}
 	.feature-block{
 		padding: 40px;
 	}
