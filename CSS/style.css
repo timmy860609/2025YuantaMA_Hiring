@@ -509,7 +509,6 @@ img{
 	font-weight: 600;
 	color: #737373;
 	background-color: white;
-	opacity: 0.95;
 	padding: 16px 10px;
 	cursor: pointer;
 	position: relative;
@@ -692,7 +691,7 @@ img{
 		margin-top: 48px;
 	}
 	.tabs__label{
-		padding: 8px 4px;
+		padding: 16px 8px;
 	}
 	.tabs__content{
 		margin-top: 32px;
