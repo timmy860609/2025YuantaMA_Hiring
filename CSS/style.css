@@ -499,19 +499,24 @@ img{
 	margin-top: 56px;
 	margin-bottom: 80px;
   }
-  
+  .tabs__radio{
+	position: fixed;
+  }
   .tabs__label {
 	text-align: center;
 	width: 25%;
 	font-size: 24px;
 	font-weight: 600;
 	color: #737373;
+	background-color: white;
+	opacity: 0.95;
 	padding: 16px 10px;
 	cursor: pointer;
 	position: relative;
 	transition: color 0.3s ease;
+	position: sticky;
+	top: 80px;
   }
-  
   .tabs__label::after {
     content: "";
     position: absolute;
