@@ -651,7 +651,7 @@ img{
 
 .play-btn{
 	position: absolute;
-	z-index: 100;
+	z-index: 1;
 	border-radius: 100px;
 	top: 51%;
     left: 51%;
