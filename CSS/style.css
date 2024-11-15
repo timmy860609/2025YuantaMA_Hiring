@@ -609,6 +609,7 @@ img{
 	margin-top: 16px;
 	width: 100%;
 	text-align: right;
+	color: #0053AC;
 }
 
 .ma-grid{
@@ -628,6 +629,7 @@ img{
 
 .day{
 	text-align: right;
+	color: #737373;
 }
 
 .video-title{
@@ -691,7 +693,7 @@ img{
 		margin-top: 48px;
 	}
 	.tabs__label{
-		padding: 16px 8px;
+		padding: 16px 2px;
 	}
 	.tabs__content{
 		margin-top: 32px;
