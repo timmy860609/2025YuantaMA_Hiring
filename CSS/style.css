@@ -138,6 +138,9 @@ img{
 	.kv-title{
 		font-size: 18px;
 	}
+	.kv-secion{
+		padding: 12vw 0;
+	}
 }
 /* ---------- Feature ----------- */
 .feature{
