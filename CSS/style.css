@@ -73,12 +73,61 @@ img{
 	background-color: #F6F7FA;
 	margin-top: 80px;
     width: 100%;
-    height: 720px; 
+    height: auto; 
 }
 
+.key-slogan{
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	width: 80%;
+	margin: 0 auto;
+}
 
+.better{
+	width: 90%;
+}
 
-/* Feature */
+.stronger{
+	width: 100%;
+}
+
+.kv-title{
+	text-align: right;
+	position: relative;
+	z-index: 1;
+	width: auto;
+	margin-left: auto;
+	display: inline-block;
+	font-size: 3vw;
+}
+.kv-title::after {
+    content: "";
+	width: 100%;
+	position: absolute;
+    display: block;
+    height: 16px;
+    background-color: #dfff3d; /* 可以根據需求更換顏色 */
+	right: 0;
+    bottom: 0;
+	z-index: -1;
+}
+.kv-frame{
+	position: relative;
+}
+.top-right{
+	position: absolute;
+	width: 25%;
+	right: 0;
+	top: -20%;
+}
+.bottom-left{
+	position: absolute;
+	width: 25%;
+	bottom: -16%;
+	left: 0;
+}
+/* ---------- Feature ----------- */
 .feature{
 	background-color: #0053AC;
 }
