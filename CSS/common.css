@@ -91,14 +91,17 @@ body{
 @media (max-width: 1439px) {
 	.wrapper {
 		max-width: 1200px;
-		padding: 120px 32px;
+		padding: 96px 32px;
 	}
   }
 @media (max-width: 767px) {
 	.wrapper {
 		width: 100%;
-		padding: 96px 24px;
+		padding: 56px 24px;
 	}
+    .title{
+        gap: 16px;
+    }
   }
 
 /* Menu */

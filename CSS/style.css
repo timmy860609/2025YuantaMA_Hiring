@@ -692,6 +692,15 @@ img{
 	.tabs__content{
 		margin-top: 32px;
 	}
+	.ma-card{
+		padding: 24px;
+	}
+	.ma-talk a{
+		margin-top: 8px;
+	}
+	.ma-pic{
+		width: 320px;
+	}
 }
 
 /*--------------- apply ---------------*/
@@ -720,7 +729,7 @@ img{
 }
 
 .apply-text p{
-	margin-top: 22px;
+	margin-top: 40px;
 }
 
 .apply-item ul{
@@ -733,6 +742,22 @@ img{
 	.apply-block{
 		padding: 40px;
 		gap: 24px;
+	}
+	.apply-item{
+		text-align: center;
+	}
+	.apply-text {
+		justify-content: center;
+	}
+	.apply-text p{
+		margin-top: 40px;
+	}
+	.apply-item ul li{
+		text-align: left;
+	}
+	.date{
+		width: auto;
+		padding:0 ;
 	}
 }
 /* DayLine */
@@ -751,7 +776,7 @@ img{
 .date-block{
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	gap: 16px;
 	margin-top: 16px;
 }
 .cta-block{
@@ -775,6 +800,10 @@ img{
 		width: 16px;
 		rotate: 90deg;
 		margin: 0 auto;
+	}
+	.apply-btn{
+		width: 100%;
+		font-size: 20px;
 	}
 }
 
@@ -842,6 +871,9 @@ img{
 		padding: 32px 40px;
 		gap: 24px;
 	}
+	.event-block{
+		gap: 32px;
+	}
 	.event-name{
 		width: 100%;
 	}
@@ -850,7 +882,25 @@ img{
 		height: 1px;
 		rotate: 180deg;
 	}
+	.event-btn{
+		width: 100%;
+		text-align: center;
+	}
+	.event{
+		padding: 24px;
+		gap: 16px;
+	}
+	.reminder{
+		font-size: 14px;
+	}
+	.event-time{
+		gap: 8px;
+	}
 	.time-item{
+		margin-bottom: 4px;
+	}
+	.right-section{
+		gap: 24px;
 	}
 }
 /* --------------slogan-------------2 */
@@ -904,6 +954,7 @@ img{
 	font-weight: 700;
 	margin-top: 40px;
 	position: relative;
+	gap: 16px;
 }
 
 .accordion-label::after {
@@ -916,13 +967,27 @@ img{
 	transition: transform 0.3s ease;
 	background-repeat: no-repeat;
 	object-fit: cover;
+	padding-left: 16px;
 }
 
 .accordion-input:checked + .accordion-label::after {
 	transform: rotate(180deg); /* 可選效果，根據需求旋轉 */
 }
-
-/* yuanta */
+@media (max-width: 767px) {
+	.accordion-label{
+		font-size: 20px;
+		gap: 8px;
+		padding: 16px;
+		margin-top: 16px;
+	}
+	.accordion-content{
+		padding: 0 16px;
+	}
+	.accordion{
+		margin-top: 32px;
+	}
+}
+/* ----------yuanta--------- */
 .company{
 	display: flex;
 	flex-direction: row;
@@ -949,14 +1014,14 @@ img{
 }
 @media (max-width: 767px) {
 	.yuanta-life{
-		padding: 40px;
+		padding: 24px;
 	}
 	.company{
 		flex-direction: column;
-		gap: 32px;
+		gap: 24px;
 	}
 	.company img{
-		width: 320px;
+		width: 80%;
 		margin: 0 auto;
 	}
 }
